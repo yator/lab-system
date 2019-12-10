@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_image">
+
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingBottom="10dp"
+                android:text="Lab Management System"
+                android:textAlignment="center"
+                android:textColor="#0165B4"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="354dp"
+                android:layout_height="403dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/border_main"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Available Resources"
+                    android:textAlignment="center"
+                    android:textColor="#0165B4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="260dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="111dp"
+                        android:layout_height="117dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/button_shape"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:onClick="lecCheckComputers"
+                                android:padding="3dp"
+                                android:src="@drawable/computer" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:text="Computers"
+                            android:textAlignment="center"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="128dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/button_shape"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:onClick="checkProjectors"
+                                android:padding="3dp"
+                                android:src="@drawable/projector" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:text="Projectors"
+                            android:textAlignment="center"
+                            android:textColor="#000000" />
+
+
+                    </LinearLayout>
+                </GridLayout>
+
+
+                <GridLayout
+                    android:layout_width="265dp"
+                    android:layout_height="157dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="114dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/button_shape"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:onClick="checkLcd"
+                                android:padding="3dp"
+                                android:src="@drawable/lcd" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:text="LCD"
+                            android:textAlignment="center"
+                            android:textColor="#000000" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/button_shape"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:onClick="checkLabs"
+                                android:padding="3dp"
+                                android:src="@drawable/labs" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:text="Labs"
+                            android:textAlignment="center"
+                            android:textColor="#000000" />
+
+
+                    </LinearLayout>
+
+
+                </GridLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
