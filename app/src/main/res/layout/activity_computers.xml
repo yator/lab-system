@@ -7,196 +7,87 @@
     tools:context=".ComputersActivity">
 
     <TableLayout
-
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:stretchColumns="0,1,2,3,4"
+        android:id="@+id/tbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TableRow
-            android:layout_width="697dp"
-            android:layout_height="0dp"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+        <TableRow>
 
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="0dp"
-                android:layout_margin="1dp"
+            <TextView
+                android:layout_width="0dp"
                 android:layout_weight="1"
-                android:background="#000000">
-
-
-            </TableRow>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#000000"
-
-            >
+                android:padding="3dip"
+                android:textStyle="bold"
+                android:text="Resource Type" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text=" Resource Type "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textStyle="bold" />
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textStyle="bold"
+                android:padding="3dip" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Name "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:text="Model"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:padding="3dip" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="serial No"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textStyle="bold" />
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Serial No"
+                android:textStyle="bold"
+                android:padding="3dip" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Action "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textStyle="bold" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#000000">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Computer"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Hp Pavilion"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Hp009"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="X9878989"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Action"
+                android:textStyle="bold"
+                android:padding="3dip" />
 
         </TableRow>
 
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_margin="1dp"
-            android:layout_weight="1"
-            android:background="#000000">
+        <TableRow>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Computer"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="3dip"
+                android:text="Computer" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="Dell inspiron"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="HP"
+                android:padding="3dip" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="dell008"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="HP000"
+                android:padding="3dip" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1dp"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="L9807F0"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="X2SD"
+                android:padding="3dip" />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:background="#448F46"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Book"/>
+
         </TableRow>
 
     </TableLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
